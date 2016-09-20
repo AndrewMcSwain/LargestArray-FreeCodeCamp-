@@ -5,9 +5,10 @@ function largestOfFour(arr) {
   var biggestInt;
   function findMax(arr){
     for(var i = 0; i < arr.length; i++){
-      for(var j = 0; j <= arr[i][j].length; j++){
-        if (arr[i][j] == arr[i][0])  biggestInt = arr[i][j];
-        if (arr[i][j] !== arr[i][0] && j >= biggestInt) biggestInt = arr[i][j];
+      console.log(maxArray);
+      for(var j = 0; j <= arr[i].length; j++){
+        if (arr[i][j] === arr[i][0 ])  biggestInt = arr[i][j];
+        if (arr[i][j] !== arr[i][0] && arr[i][j] >= biggestInt) biggestInt = arr[i][j];
         console.log(biggestInt);
       }
     maxArray.push(biggestInt);                    
